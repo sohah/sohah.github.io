@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://cis.asu.edu.eg/'>Computer and Information Sciences-ASU</a>. Cairo. Egypt
+subtitle: Assistant Professor, <a href='https://cis.asu.edu.eg/'>Computer & Information Sciences, ASU</a>. Cairo. Egypt
 
 profile:
   align: right
