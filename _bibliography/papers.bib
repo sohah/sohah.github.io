@@ -1,84 +1,123 @@
----
----
+@INPROCEEDINGS{10173970,
+  author={Hussein, Soha and McCamant, Stephen and Sherman, Elena and Sharma, Vaibhav and Whalen, Mike},
+  booktitle={2023 IEEE/ACM International Conference on Automation of Software Test (AST)},
+  title={Structural Test Input Generation for 3-Address Code Coverage Using Path-Merged Symbolic Execution},
+  year={2023},
+  volume={},
+  number={},
+  pages={79-89},
+  doi={10.1109/AST58925.2023.00012}}
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@InProceedings{10.1007/978-3-031-30820-8_35,
+author="Hussein, Soha
+and Yan, Qiuchen
+and McCamant, Stephen
+and Sharma, Vaibhav
+and Whalen, Michael W.",
+editor="Sankaranarayanan, Sriram
+and Sharygina, Natasha",
+title="Java Ranger: Supporting String and Array Operations in Java Ranger (Competition Contribution)",
+booktitle="Tools and Algorithms for the Construction and Analysis of Systems",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="553--558",
+abstract="Java Ranger is a path-merging tool for Java Programs. It identifies branching regions of code and summarizes them by generating a disjunctive logical constraint that describes the behavior of the code region. Previously, Java Ranger showed that a reduction of 70{\%} of execution paths is possible when used to merge branching regions of code that support numeric constraints.",
+isbn="978-3-031-30820-8"
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{10.1145/3524482.3527650,
+author = {Hussein, Soha and Rayadurgam, Sanjai and McCamant, Stephen and Sharma, Vaibhav and Heimdahl, Mats},
+title = {Counterexample-Guided Inductive Repair of Reactive Contracts},
+year = {2022},
+isbn = {9781450392877},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3524482.3527650},
+doi = {10.1145/3524482.3527650},
+abstract = {Executable implementations are ultimately the only dependable representations of a software component's behavior. Incorporating such a component in a rigorous model-based development of reactive systems poses challenges since a formal contract over its behaviors will have to be crafted for system verification. Simply hypothesizing a contract based on informal descriptions of the component is problematic: if it is too weak, we may fail in verifying valid system-level contracts; if it is too strong or simply erroneous, the system may fail in operation. Thus, establishing a valid and strong enough contract is crucially important.In this paper, we propose to repair the invalid hypothesized contract by replacing one or more of its sub-expressions with newly composed expressions, such that the new contract holds over the implementation. To this effect, we present a novel, sound, semantically minimal, and under reasonable assumptions terminating, and complete counterexample-guided general-purpose algorithm for repairing contracts. We implemented and evaluated our technique on more than 4,000 mutants with various complexities generated from 29 valid contracts for 4 non-trivial Java reactive components. Results show a successful repair rate of 81.51\%, with 20.72\% of the repairs matching the manually written contracts and 60.79\% of the repairs describing non-trivial valid contracts.},
+booktitle = {Proceedings of the IEEE/ACM 10th International Conference on Formal Methods in Software Engineering},
+pages = {46–57},
+numpages = {12},
+location = {Pittsburgh, Pennsylvania},
+series = {FormaliSE '22}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{10.1145/3368089.3409734,
+author = {Sharma, Vaibhav and Hussein, Soha and Whalen, Michael W. and McCamant, Stephen and Visser, Willem},
+title = {Java Ranger: Statically Summarizing Regions for Efficient Symbolic Execution of Java},
+year = {2020},
+isbn = {9781450370431},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3368089.3409734},
+doi = {10.1145/3368089.3409734},
+abstract = {Merging execution paths is a powerful technique for reducing path explosion in symbolic execution. One approach, introduced and dubbed “veritesting” by Avgerinos et al., works by translating abounded control flow region into a single constraint. This approach is a convenient way to achieve path merging as a modification to a pre-existing single-path symbolic execution engine. Previous work evaluated this approach for symbolic execution of binary code, but different design considerations apply when building tools for other languages. In this paper, we extend the previous approach for symbolic execution of Java.  Because Java code typically contains many small dynamically dispatched methods, it is important to include them in multi-path regions; we introduce dynamic inlining of method-regions to do so modularly. Java’s typed memory structure is very different from the binary representation, but we show how the idea of static single assignment (SSA) form can be applied to object references to statically account for aliasing. We have implemented our algorithms in Java Ranger, an extension to the widely used Symbolic Pathfinder tool. In a set of nine benchmarks, Java Ranger reduces the running time and number of execution paths by a total of 38\% and 71\% respectively as compared to SPF. Our results are a significant improvement over the performance of JBMC, a recently released verification tool for Java bytecode. We also participated in a static verification competition at a top theory conference where other participants included state-of-the-art Java verifiers. JR won first place in the competition’s Java verification track.},
+booktitle = {Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+pages = {123–134},
+numpages = {12},
+keywords = {path-merging, symbolic execution, veritesting},
+location = {Virtual Event, USA},
+series = {ESEC/FSE 2020}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@InProceedings{10.1007/978-3-030-45237-7_27,
+author="Sharma, Vaibhav
+and Hussein, Soha
+and Whalen, Michael W.
+and McCamant, Stephen
+and Visser, Willem",
+editor="Biere, Armin
+and Parker, David",
+title="Java Ranger at SV-COMP 2020 (Competition Contribution)",
+booktitle="Tools and Algorithms for the Construction and Analysis of Systems",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="393--397",
+abstract="Path-merging is a known technique for accelerating symbolic execution. One technique, named ``veritesting'' by Avgerinos et al. uses summaries of bounded control-flow regions and has been shown to accelerate symbolic execution of binary code. But, when applied to symbolic execution of Java code, veritesting needs to be extended to summarize dynamically dispatched methods and exceptional control-flow. Such an extension of veritesting has been implemented in Java Ranger by implementing as an extension of Symbolic PathFinder, a symbolic executor for Java bytecode. In this paper, we briefly describe the architecture of Java Ranger and describe its setup for SV-COMP 2020.",
+isbn="978-3-030-45237-7"
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@InProceedings{10.1007/978-3-642-41488-6_15,
+author="Sans, Thierry
+and Cervesato, Iliano
+and Hussein, Soha",
+editor="Riis Nielson, Hanne
+and Gollmann, Dieter",
+title="Controlling Data Flow with a Policy-Based Programming Language for the Web",
+booktitle="Secure IT Systems",
+year="2013",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="215--230",
+abstract="It has become increasingly easy to write Web applications and other distributed programs by orchestrating invocations to remote third-party services. Increasingly, these third-party services themselves invoke other services and so on, making it difficult for the original application developer to anticipate where his/her data will end up. This may lead to privacy breaches or contractual violations. In this paper, we explore a simple distributed programming language that allows a web service provider to infer automatically where user data will travel to, and the developer to impose statically-checkable constraints on acceptable routes. For example, this may provide confidence that company data will not flow to a competitor, or that privacy-sensitive data goes through an anonymizer before being sent further out.",
+isbn="978-3-642-41488-6"
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{10.1145/2336717.2336720,
+author = {Hussein, Soha and Meredith, Patrick and Ro\c{s}lu, Grigore},
+title = {Security-Policy Monitoring and Enforcement with JavaMOP},
+year = {2012},
+isbn = {9781450314411},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2336717.2336720},
+doi = {10.1145/2336717.2336720},
+abstract = {Software security attacks represent an ever growing problem. One way to make software more secure is to use Inlined Reference Monitors (IRMs), which allow security specifications to be inlined inside a target program to ensure its compliance with the desired security specifications. The IRM approach has been developed primarily by the security community. Runtime Verification (RV), on the other hand, is a software engineering approach, which is intended to formally encode system specifications within a target program such that those specifications can be later enforced during the execution of the program. Until now, the IRM and RV approaches have lived separate lives; in particular RV techniques have not been applied to the security domain, being used instead to aid program correctness and testing. This paper discusses the usage of a formalism-generic RV system, JavaMOP, as a means to specify IRMs, leveraging the careful engineering of the JavaMOP system for ensuring secure operation of software in an efficient manner.},
+booktitle = {Proceedings of the 7th Workshop on Programming Languages and Analysis for Security},
+articleno = {3},
+numpages = {11},
+location = {Beijing, China},
+series = {PLAS '12}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
+@INPROCEEDINGS{9678548,
+  author={Hussein, Soha and Sharma, Vaibhav and McCamant, Stephen and Rayadurgam, Sanjai and Heimdahl, Mats},
+  booktitle={2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  title={Counterexample Guided Inductive Repair of Reactive Contracts},
+  year={2021},
+  volume={},
+  number={},
+  pages={1190-1192},
+  doi={10.1109/ASE51524.2021.9678548}}
