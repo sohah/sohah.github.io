@@ -1,11 +1,11 @@
 ---
 layout: post
-title: a post with code
-date: 2015-07-15 15:09:00
-description: an example of a blog post with some code
-tags: formatting code
-categories: sample-posts
-featured: true
+title: Java Ranger
+#date: 2020-07-01 15:09:00
+description: Path Merging Symbolic Execution for Java Programs 
+tags: SymbolicExecution, Path-Merging
+#categories: sample-posts
+#featured: true
 ---
 This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
 It supports more than 100 languages.

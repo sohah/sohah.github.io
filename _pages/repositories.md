@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: projects I owned or participated to
-nav: true
+nav: false
 nav_order: 3
 ---
 

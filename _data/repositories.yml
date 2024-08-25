@@ -3,5 +3,8 @@
 #   - vaibhavbsharma
 
 github_repos:
-  - sohah/ContractDR
+  - Fuzz-Testing/SpotOn
+  - Fuzz-Testing/influencing-type-analysis
+#  - sohah/SpotOnArtifact
   - vaibhavbsharma/java-ranger
+  - sohah/ContractDR

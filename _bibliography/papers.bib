@@ -1,3 +1,15 @@
+@misc{hussein2024generatorbasedfuzzerstypebasedtargeted,
+      title={Generator-Based Fuzzers with Type-Based Targeted Mutation},
+      author={Soha Hussein and Stephen McCamant and Mike Whalen},
+      year={2024},
+      eprint={2406.02034},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2406.02034},
+      abstract={As with any fuzzer, directing Generator-Based Fuzzers (GBF) to reach particular code targets can increase the fuzzer's effectiveness. In previous work, coverage-guided fuzzers used a mix of static analysis, taint analysis, and constraint-solving approaches to address this problem. However, none of these techniques were particularly crafted for GBF where input generators are used to construct program inputs. The observation is that input generators carry information about the input structure that is naturally present through the typing composition of the program input.In this paper, we introduce a type-based mutation heuristic, along with constant string lookup, for Java GBF. Our key intuition is that if one can identify which sub-part (types) of the input will likely influence the branching decision, then focusing on mutating the choices of the generators constructing these types is likely to achieve the desired coverages. We used our technique to fuzz AWSLambda applications. Results compared to a baseline GBF tool show an almost 20\% average improvement in application coverage, and larger improvements when third-party code is included.},
+      pdf={https://drive.google.com/file/d/1izH6gNzs1Qj6Cq0Z9Llkf6BhWtcqPUS-/view?usp=drive_link},
+      selected={true}}
+
 @INPROCEEDINGS{10173970,
   author={Hussein, Soha and McCamant, Stephen and Sherman, Elena and Sharma, Vaibhav and Whalen, Mike},
   booktitle={2023 IEEE/ACM International Conference on Automation of Software Test (AST)},
@@ -6,7 +18,32 @@
   volume={},
   number={},
   pages={79-89},
-  doi={10.1109/AST58925.2023.00012}}
+  doi={10.1109/AST58925.2023.00012},
+  abstract={Test input generation is one of the key applications
+of symbolic execution (SE). However, being a path-sensitive
+technique, SE often faces path explosion even when creating
+a branch-adequate test suite. Path-merging symbolic execution
+(PM-SE) alleviates the path explosion problem by summarizing
+regions of code into disjunctive constraints, thus traversing at
+once a set of paths with the same prefixes. Previous work has
+shown that PM-SE can reduce run-time up to 38%, though these
+improvements can be impaired if the summarized code results
+in complex constraints or introduces additional symbols that
+increase the number of branching points in the later execution.
+Considering these trade-offs, examining the ability of PM-
+SE to generate branch-adequate test inputs is an open research
+problem. This paper investigates it by developing a technique
+that extracts structural coverage-related queries from disjoint
+constraints. Using this approach, we extend PM-SE to generate
+branch-adequate test inputs.
+Experiments compare the effectiveness and efficiency of test
+input generation by SE and PM-SE techniques. Results show
+that those techniques are complementary. For some programs,
+PM-SE yields faster coverage, with fewer generated tests, while
+for others, SE performs better. In addition, each technique covers
+branches that the other fails to discover.},
+  pdf={https://drive.google.com/file/d/1A3Cz5AVKHGvz7x8w9-7A6QGzaJmrBjyu/view?usp=drive_link},
+  selected={true}}
 
 @InProceedings{10.1007/978-3-031-30820-8_35,
 author="Hussein, Soha
@@ -23,7 +60,8 @@ publisher="Springer Nature Switzerland",
 address="Cham",
 pages="553--558",
 abstract="Java Ranger is a path-merging tool for Java Programs. It identifies branching regions of code and summarizes them by generating a disjunctive logical constraint that describes the behavior of the code region. Previously, Java Ranger showed that a reduction of 70{\%} of execution paths is possible when used to merge branching regions of code that support numeric constraints.",
-isbn="978-3-031-30820-8"
+isbn="978-3-031-30820-8",
+pdf={https://drive.google.com/file/d/1I8_1_jtHMSl8-pL6XCFNhpQnAgzQdtpn/view?usp=drive_link},
 }
 
 @inproceedings{10.1145/3524482.3527650,
@@ -40,8 +78,39 @@ booktitle = {Proceedings of the IEEE/ACM 10th International Conference on Formal
 pages = {46–57},
 numpages = {12},
 location = {Pittsburgh, Pennsylvania},
-series = {FormaliSE '22}
+series = {FormaliSE '22},
+pdf={https://drive.google.com/file/d/1yDNvxnFeIDZC8W40DfiALylXZv-puiFg/view?usp=sharing},
+selected={true}
 }
+
+
+@INPROCEEDINGS{9678548,
+  author={Hussein, Soha and Sharma, Vaibhav and McCamant, Stephen and Rayadurgam, Sanjai and Heimdahl, Mats},
+  booktitle={2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  title={Counterexample Guided Inductive Repair of Reactive Contracts},
+  year={2021},
+  volume={},
+  number={},
+  pages={1190-1192},
+  abstract={Using third-party executable components to build
+control systems poses challenges for veriﬁcation. This is because
+the informal behavior descriptions that typically accompany the
+components often fall short of the needed rigor. Consequently,
+there is a need to formalize a component contract that is strong
+enough to help establish system properties and also weak enough
+to account for all potential component behaviors in the system’s
+context. In this paper, we present a novel approach that allows
+an analyst to hypothesize a component contract, explore if the
+component meets the contract, and, if not, have automated
+support to help repair the contract. Preliminary results show
+that, in more than 32% of the cases, the repaired contract is
+logically equivalent to a developer-written one; in a further 63%
+of cases, it is a distinct, valid, and non-trivial property of the
+component.},
+  pdf={https://drive.google.com/file/d/1401X-9bmUpVzelfCmowwVd0eyM22g_py/view?usp=drive_link},
+  doi={10.1109/ASE51524.2021.9678548},
+  selected={true}}
+
 
 @inproceedings{10.1145/3368089.3409734,
 author = {Sharma, Vaibhav and Hussein, Soha and Whalen, Michael W. and McCamant, Stephen and Visser, Willem},
@@ -58,7 +127,9 @@ pages = {123–134},
 numpages = {12},
 keywords = {path-merging, symbolic execution, veritesting},
 location = {Virtual Event, USA},
-series = {ESEC/FSE 2020}
+series = {ESEC/FSE 2020},
+pdf={https://drive.google.com/file/d/1qKDrcUoDzOL9bUGYdtmedbOHjlsdphFP/view?usp=drive_link},
+selected={true}
 }
 
 @InProceedings{10.1007/978-3-030-45237-7_27,
@@ -76,6 +147,7 @@ publisher="Springer International Publishing",
 address="Cham",
 pages="393--397",
 abstract="Path-merging is a known technique for accelerating symbolic execution. One technique, named ``veritesting'' by Avgerinos et al. uses summaries of bounded control-flow regions and has been shown to accelerate symbolic execution of binary code. But, when applied to symbolic execution of Java code, veritesting needs to be extended to summarize dynamically dispatched methods and exceptional control-flow. Such an extension of veritesting has been implemented in Java Ranger by implementing as an extension of Symbolic PathFinder, a symbolic executor for Java bytecode. In this paper, we briefly describe the architecture of Java Ranger and describe its setup for SV-COMP 2020.",
+pdf={https://drive.google.com/file/d/1AB063CrC3nBZukqUZx9u8GdJjPSPM4Qh/view?usp=drive_link},
 isbn="978-3-030-45237-7"
 }
 
@@ -92,6 +164,7 @@ publisher="Springer Berlin Heidelberg",
 address="Berlin, Heidelberg",
 pages="215--230",
 abstract="It has become increasingly easy to write Web applications and other distributed programs by orchestrating invocations to remote third-party services. Increasingly, these third-party services themselves invoke other services and so on, making it difficult for the original application developer to anticipate where his/her data will end up. This may lead to privacy breaches or contractual violations. In this paper, we explore a simple distributed programming language that allows a web service provider to infer automatically where user data will travel to, and the developer to impose statically-checkable constraints on acceptable routes. For example, this may provide confidence that company data will not flow to a competitor, or that privacy-sensitive data goes through an anonymizer before being sent further out.",
+pdf={https://drive.google.com/file/d/10AyC8OIDQZWCoD8i9DDOtUDHCHjWj7XF/view?usp=drive_link},
 isbn="978-3-642-41488-6"
 }
 
@@ -109,15 +182,25 @@ booktitle = {Proceedings of the 7th Workshop on Programming Languages and Analys
 articleno = {3},
 numpages = {11},
 location = {Beijing, China},
-series = {PLAS '12}
+series = {PLAS '12},
+abs={Software security attacks represent an ever growing problem. One
+way to make software more secure is to use Inlined Reference Mon-
+itors (IRMs), which allow security specifications to be inlined in-
+side a target program to ensure its compliance with the desired se-
+curity specifications. The IRM approach has been developed pri-
+marily by the security community. Runtime Verification (RV), on
+the other hand, is a software engineering approach, which is in-
+tended to formally encode system specifications within a target
+program such that those specifications can be later enforced dur-
+ing the execution of the program. Until now, the IRM and RV ap-
+proaches have lived separate lives; in particular RV techniques have
+not been applied to the security domain, being used instead to aid
+program correctness and testing. This paper discusses the usage of
+a formalism-generic RV system, JavaMOP, as a means to specify
+IRMs, leveraging the careful engineering of the JavaMOP system
+for ensuring secure operation of software in an efficient manner.},
+pdf={https://drive.google.com/file/d/1ga44sEYzd1tECIiiRbjTTsptFpmpqqkO/view?usp=drive_link},
+selected={true}
 }
 
-@INPROCEEDINGS{9678548,
-  author={Hussein, Soha and Sharma, Vaibhav and McCamant, Stephen and Rayadurgam, Sanjai and Heimdahl, Mats},
-  booktitle={2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
-  title={Counterexample Guided Inductive Repair of Reactive Contracts},
-  year={2021},
-  volume={},
-  number={},
-  pages={1190-1192},
-  doi={10.1109/ASE51524.2021.9678548}}
+

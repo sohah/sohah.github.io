@@ -1,12 +1,13 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: #Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 5
 ---
-
+* **Fall 2024 - Ain Shams University**
+	- *...* To be determined
 * **Fall 2021 - University of Minnesota Graduate Instructor**
 	- *CSCI 1133* Introduction to Computing and Programming Concepts
 
