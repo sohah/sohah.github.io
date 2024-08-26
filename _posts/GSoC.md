@@ -4,8 +4,8 @@ title: GSoC Projects
 date: 2024-07-01 15:09:00
 description: Symbolic Execution Projects in GSoC 
 tags: ['SymbolicExecution', 'Path-Merging','GSoC']
-#categories: sample-posts
-#featured: true
+categories: sample-posts
+featured: true
 ---
 This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
 It supports more than 100 languages.
