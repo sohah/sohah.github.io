@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We presented our paper at AST co-located with ICSE'2023. Check out our slides.[<img src="../assets/img/slides.jpeg" alt="img" width="35"/>](../assets/pdf/AST2023-TCG_slides.pdf) 
+[<img src="../assets/img/slides.jpeg" alt="img" width="35"/>](../assets/pdf/AST2023-TCG_slides.pdf) We presented our paper at AST co-located with ICSE'2023. Check out our slides.
