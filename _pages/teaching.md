@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 * **Fall 2024 - Ain Shams University**
-	- *...* To be determined
+	- *FNI 421* Mobile Computing
 * **Fall 2021 - University of Minnesota Graduate Instructor**
 	- *CSCI 1133* Introduction to Computing and Programming Concepts
 
