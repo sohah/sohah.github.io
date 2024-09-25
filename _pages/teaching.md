@@ -8,6 +8,7 @@ nav_order: 5
 ---
 * **Fall 2024 - Ain Shams University**
 	- *FNI 421* Mobile Computing
+    - *IFS 454* High Performance Computing
 * **Fall 2021 - University of Minnesota Graduate Instructor**
 	- *CSCI 1133* Introduction to Computing and Programming Concepts
 
