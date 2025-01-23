@@ -6,6 +6,8 @@ description: #Materials for courses you taught. Replace this text with your desc
 nav: true
 nav_order: 5
 ---
+* **Spring 2025 - Ain Shams University**
+	- *FNI 422* Algorithms
 * **Fall 2024 - Ain Shams University**
 	- *FNI 421* Mobile Computing
 * **Fall 2021 - University of Minnesota Graduate Instructor**
