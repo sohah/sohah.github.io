@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<img src="../assets/img/new.png" alt="img" width="60"/> Just finished the [Early Career Teaching and Learning program](https://cei.umn.edu/programs/early-career-teaching-and-learning-program) that the University of Minnesota. Great experience!  
+Finished the [Early Career Teaching and Learning program](https://cei.umn.edu/programs/early-career-teaching-and-learning-program) that the University of Minnesota. Great experience!  

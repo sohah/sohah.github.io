@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<img src="../assets/img/new.png" alt="img" width="60"/> [<img src="../assets/img/read.jpeg" alt="img" width="35"/>](https://arxiv.org/abs/2406.02034) Read our new paper on ArviX on Fuzz Testing Java Programs. 
+[<img src="../assets/img/read.jpeg" alt="img" width="35"/>](https://drive.google.com/file/d/1xoBFh-CW_HzE9l4UHfMsYdXb3RkHdVgi/view?usp=sharing) Read our new paper on ArviX on Fuzz Testing Java Programs. 
