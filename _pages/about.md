@@ -12,7 +12,7 @@ profile:
     <p>Main Building</p>
     <p>Abbassia</p>
     <p>Cairo, Egypt</p>
-    <p>soha.hussien@cis.asu.edu.eg</p>
+    <p>soha.hussein@cis.asu.edu.eg</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
