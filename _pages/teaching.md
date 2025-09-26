@@ -8,7 +8,7 @@ nav_order: 5
 ---
 * **Spring 2025 - Ain Shams University**
 	- *FNI 422* Algorithms
-* **Fall 2024 - Ain Shams University**
+* **Fall 2024, Fall 2025 - Ain Shams University**
 	- *FNI 421* Mobile Computing
 * **Fall 2021 - University of Minnesota Graduate Instructor**
 	- *CSCI 1133* Introduction to Computing and Programming Concepts
