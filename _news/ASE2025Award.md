@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Awarded "Outstanding Service on the Organization Committee" from ASE 2025. <br>
+<img src="../assets/img/new.png" alt="img" width="60"/>Awarded "Outstanding Service on the Organization Committee" from ASE 2025. <br>
