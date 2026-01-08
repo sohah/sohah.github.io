@@ -6,7 +6,9 @@ description: #Materials for courses you taught. Replace this text with your desc
 nav: true
 nav_order: 5
 ---
-* **Spring 2025 - Ain Shams University**
+* * **Spring 2026 - Egyptian University of Informatics**
+	- *CS 495* Software Validation and Verification
+* **Spring 2025, 2026 - Ain Shams University**
 	- *FNI 422* Algorithms
 * **Fall 2024, Fall 2025 - Ain Shams University**
 	- *FNI 421* Mobile Computing
