@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<img src="../assets/img/new.png" alt="img" width="60"/> Serving as Program Committee  for ISSTA 2026 PC. <br>
+<img src="../assets/img/new.png" alt="img" width="60"/> Serving as member of the Program Committee  for ISSTA 2026. <br>
