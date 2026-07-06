@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor at Ain Shams University in Egypt, specializing in building and advancing techniques for reliable and secure software. My research centers on program analysis, fuzzing, symbolic execution, testing, and formal verification to enhance software reliability and security.
+I am an Assistant Professor at Ain Shams University in Egypt. I work on advancing techniques for reliable, verifiable and secure programs. 
 
 #### Computer Science Education
 * Ph.D. Computer Science University of Minnesota
@@ -32,7 +32,7 @@ I am an Assistant Professor at Ain Shams University in Egypt, specializing in bu
 [//]: # ()
 [//]: # (* M.S. Computer Science Ain Shams University)
 
-#### Teaching Education
+#### Higher Education Pedagogy
 
 * Early Career Teaching and Learning, University of Minnesota
 
@@ -41,3 +41,8 @@ I am an Assistant Professor at Ain Shams University in Egypt, specializing in bu
 ### Student Opportunities
 <img src="../assets/img/open_img.png" alt="img" width="50"/>
 I am always looking for excellent students. Please reach out if you are one. I have multiple research opportunities.
+
+
+### Looking for Research Collaborations
+<img src="../assets/img/open_img.png" alt="img" width="50"/>
+I am always looking for regional and global research collaborations. Please feel free to reach out to discuss potential research collaborations.
